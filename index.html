@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Layout</title>
+    <style>
+        .flex-container {
+            display: flex;
+            background-color: blue;
+            /* justify-content: center; */
+            /* align-items: center; */
+            height: 600px;
+
+        }
+
+        .flex-container>div {
+            color: white;
+            padding: 20px;
+            margin: 10px;
+            height: 75px;
+            font-size: 22px;
+            background-color: brown;
+            width: 50px;
+
+        }
+
+        .item1 {
+
+            flex: shrink 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="item1">item1</div>
+        <div class="item2">item1</div>
+        <div class="item3">item1</div>
+
+    </div>
+</body>
+
+</html>
